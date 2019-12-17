@@ -1,8 +1,6 @@
 # spider
 > 根据用户名爬取instagram网站的数据
 
-+ 请使用python3.6
-
 ## Example Usage
 
 1. 安装依赖包
