@@ -16,4 +16,4 @@
 3. 注意项
     + 数据存放在 {name}.json文件中
     + 如果爬取意外过程中,异常中断,会记录游标到{name}.log中
-    + 因为有可能发生异常退出,断点恢复会导致一部分数据有重复.可使用: `cat name.json|sort|uniq > name.json` 去重
+    + 断点恢复时,会导致一部分数据有重复.等待爬取完成之后,可使用: `cat name.json|sort|uniq > name.json` 去重
